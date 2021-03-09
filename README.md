@@ -59,6 +59,8 @@ Put the following checkpoints of evaluation models at `./RC-49/output/eval_model
 #### CcGAN training and DRE fitting
 For the CcGAN training, we implement SVDL+ILI with $m_k=2$. Other training setups (e.g., epochs, batch size, learning rate) are consistent with [2].
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 #### Evaluation
 
 
