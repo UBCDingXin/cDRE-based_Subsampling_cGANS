@@ -74,7 +74,7 @@ Run `./RC-49/scripts/run_dump_img_for_niqe_3.sh` for Setting 3 (5 images per ang
 Rename the folder containing fake images to `fake_images` and then compress `fake_images` with a filename `fake_images.zip`. Move `fake_images.zip` to `./RC-49/NIQE/fake_data`. Then, run `./RC-49/NIQE/run_test.sh`. <br />
 
 
--------------------------------
+<!-- -------------------------------
 ## Some Results
 ### CIFAR-10
 We evaluate the Intra-FID and FID scores of fake images generated from different subsampling methods.
@@ -82,12 +82,12 @@ We evaluate the Intra-FID and FID scores of fake images generated from different
 |                    |          BC-50K        |          BC-20K        |           BC-10K       |
 |--------------------|-------------|----------|-------------|----------|-------------|----------|
 | Method             | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  |
-| No Subsampling     |    0.915    |  0.415   |    1.636    |   0.973  |   3.271    | 2.601   |
-| 10-DRE-F-SP+RS [3] | 96 | 2048       | 1       | 9.8       | -          | -       |
-| cDRE-F-SP+RS       | 64 | 256        | 1       | **9.6**   | **0.88**   | 0.50    |
+| No Subsampling     |    0.915    |  0.415   |    1.636    |   0.973  |   3.271     |  2.601   |
+| 10-DRE-F-SP+RS [3] |    0.915    |  0.415   |    1.636    |   0.973  |   3.271     |  2.601   |
+| cDRE-F-SP+RS       |    0.915    |  0.415   |    1.636    |   0.973  |   3.271     |  2.601   |
 
 
-### RC-49
+### RC-49 -->
 
 
 
