@@ -3,18 +3,18 @@
 
 ## Datasets (h5 files)
 
-### CIFAR-10 (50000 training samples)
+### CIFAR-10 (for the setting with 50000 training samples)
 Put the following h5 file at './CIFAR10/data': <br />
 https://1drv.ms/u/s!Arj2pETbYnWQsdtpYbSbbb7ntilamQ?e=AKaVHF <br />
 
-### CIFAR-10 (20000 training samples)
+### CIFAR-10 (for the setting with 20000 training samples)
 Put the following h5 file at './CIFAR10/data': <br />
 https://1drv.ms/u/s!Arj2pETbYnWQsdtqZzH-nTaHSqq-ug?e=svEixn <br />
 
 Put the following h5 file at './CIFAR10/BigGAN_20K/data': <br />
 https://1drv.ms/u/s!Arj2pETbYnWQsd5yb7DgNhrJAaWZ3A?e=5a5NtL <br />
 
-### CIFAR-10 (10000 training samples)
+### CIFAR-10 (for the setting with 10000 training samples)
 Put the following h5 file at './CIFAR10/data': <br />
 https://1drv.ms/u/s!Arj2pETbYnWQsdtr0xfBIgiKANoobA?e=bfFMnQ <br />
 
