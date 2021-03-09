@@ -45,10 +45,10 @@ https://1drv.ms/u/s!Arj2pETbYnWQso1vD_2hHtvbxVOM9w?e=jgK2Se <br />
 ### RC-49
 
 #### Pre-trained evaluation models <br />
-Put the following checkpoints of evaluation models (AE, classification ResNet34, and regression ResNet34) at `./RC-49/output/eval_models`: <br />
-https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
-https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
-https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
+Put the following checkpoints of evaluation models at `./RC-49/output/eval_models`: <br />
+AE: https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
+Classificaiton ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
+Regression ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
 
 -------------------------------
 ## Some Results
