@@ -80,9 +80,8 @@ Rename the folder containing fake images to `fake_images` and then compress `fak
 We evaluate the Intra-FID and FID scores of fake images generated from different subsampling methods.
 
 |                    |          BC-50K        |          BC-20K        |           BC-10K       |
-|--------------------|-------------|----------|-------------|----------|-------------|----------|
 | Method             | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  |
-|--------------------|-------------|----------|-------------|----------|-------------|----------|
+|--------------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | No Subsampling     |    0.915    |  0.415   |    1.636    |   0.973  |   3.271    | 2.601   |
 | 10-DRE-F-SP+RS [3] | 96 | 2048       | 1       | 9.8       | -          | -       |
 | cDRE-F-SP+RS       | 64 | 256        | 1       | **9.6**   | **0.88**   | 0.50    |
