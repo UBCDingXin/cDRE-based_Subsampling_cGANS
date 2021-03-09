@@ -77,7 +77,7 @@ Rename the folder containing fake images to `fake_images` and then compress `fak
 -------------------------------
 ## Some Results
 ### CIFAR-10
-We evaluate the Intra-FID and FID scores of
+We evaluate the Intra-FID and FID scores of fake images generated from different subsampling methods.
 
 |                    |          BC-50K        |          BC-20K        |           BC-10K       |
 | Method             | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  | Intra-FID ↓ |   FID ↓  |
