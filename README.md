@@ -52,12 +52,12 @@ Run `./CIFAR10/scripts/run_exp3.sh` for Setting 3 (10,000 samples).  <br />
 #### Pre-trained evaluation models
 We follow the setups in [1] and [2] to train an AE, a classification-oriented ResNet-34, and a regression-oriented ResNet-34 to evaluate the image quality.  <br />
 Put the following checkpoints of evaluation models at `./RC-49/output/eval_models`: <br />
-**AE**: https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
-**Classification-oriented ResNet-34**: https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
-**Regression-oriented ResNet-34**: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
+*AE*: https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
+*Classification-oriented ResNet-34*: https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
+*Regression-oriented ResNet-34*: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
 
 #### CcGAN training and DRE fitting
-
+For the CcGAN training, we implement SVDL+ILI with $m_k=2$. Other training setups (e.g., epochs, batch size, learning rate) are consistent with [2].
 
 #### Evaluation
 
