@@ -40,15 +40,19 @@ https://1drv.ms/u/s!Arj2pETbYnWQso1vD_2hHtvbxVOM9w?e=jgK2Se <br />
 
 ### CIFAR-10
 
-
+#### Pre-trained evaluation models and BigGAN
+We train an Inception V3 on CIFAR-10 to evaluate the image quality. The checkpoint of the Inception V3 locates at `./CIFAR10/output/eval_models/`. BigGAN's checkpoints for all three settings are also included in this repository.
 
 ### RC-49
-
-#### Pre-trained evaluation models <br />
+#### Pre-trained evaluation models
 Put the following checkpoints of evaluation models at `./RC-49/output/eval_models`: <br />
 AE: https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
 Classificaiton ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
 Regression ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
+
+#### CcGAN training and DRE
+
+
 
 -------------------------------
 ## Some Results
