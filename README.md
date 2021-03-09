@@ -64,11 +64,14 @@ Run `./RC-49/scripts/run_exp3.sh` for Setting 3 (5 images per angle).  <br />
 Note that for the CcGAN training, we implement **SVDL+ILI** with training setups (e.g., kappa, epochs, batch size, learning rate) in [2]. <br />
 
 #### Evaluation
+Intra-FID, Diversity, and Label Score will be computed by running the above `.sh` files. <br />
 
-Intra-FID, Diversity, and Label Score will be computed by running the `.sh` files. <br />
+To compute NIQE, run the following `.sh` files to dump fake images to `./RC-49/output/main_NImgPerLabel_XX/eval_results/dump_fake_data_for_NIQE`:  <br />
+Run `./RC-49/scripts/run_dump_img_for_niqe_1.sh` for Setting 1 (25 images per angle).  <br />
+Run `./RC-49/scripts/run_dump_img_for_niqe_2.sh` for Setting 2 (15 images per angle).  <br />
+Run `./RC-49/scripts/run_dump_img_for_niqe_3.sh` for Setting 3 (5 images per angle).  <br />
 
-To compute NIQE, 
-
+Rename the folder containing fake images to `fake_images` and then compress `fake_images` with a filename `fake_images.zip`. Move `fake_images.zip` to `./RC-49/NIQE/fake_data`. Then, run `./RC-49/NIQE/run_test.sh`. <br />
 
 
 -------------------------------
