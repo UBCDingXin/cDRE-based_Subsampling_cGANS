@@ -1,4 +1,4 @@
-# Subsampling Conditional Generative Adversarial Networks From the Conditional Density Ratio Estimation Perspective
+# Generating High-quality Images from Conditional GANs: An Efficient Conditional Subsampling Scheme
 
 This repository provides the source codes for the experiments in our paper on the CIFAR-10 and RC-49 datasets. <br />
 If you use this code, please cite
@@ -8,6 +8,7 @@ TO BE DONE...
 
 ```
 
+-------------------------------
 
 ## Datasets (h5 files)
 
@@ -36,3 +37,18 @@ https://1drv.ms/u/s!Arj2pETbYnWQso1vD_2hHtvbxVOM9w?e=jgK2Se <br />
 
 -------------------------------
 ## Sample Usage
+
+### CIFAR-10
+
+
+
+### RC-49
+
+#### Pre-trained evaluation models <br />
+Put the checkpoints of evaluation models at `./RC-49/output/eval_models`
+https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
+https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
+https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
+
+-------------------------------
+## Some Results
