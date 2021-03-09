@@ -57,11 +57,18 @@ Put the following checkpoints of evaluation models at `./RC-49/output/eval_model
 *Regression-oriented ResNet-34*: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdSR  <br />
 
 #### CcGAN training and DRE fitting
-For the CcGAN training, we implement SVDL+ILI with training setups (e.g., kappa, epochs, batch size, learning rate) in [2]. <br />
+Run `./RC-49/scripts/run_exp1.sh` for Setting 1 (25 images per angle).  <br />
+Run `./RC-49/scripts/run_exp2.sh` for Setting 2 (15 images per angle).  <br />
+Run `./RC-49/scripts/run_exp3.sh` for Setting 3 (5 images per angle).  <br />
 
-
+Note that for the CcGAN training, we implement **SVDL+ILI** with training setups (e.g., kappa, epochs, batch size, learning rate) in [2]. <br />
 
 #### Evaluation
+
+Intra-FID, Diversity, and Label Score will be computed by running the `.sh` files. <br />
+
+To compute NIQE, 
+
 
 
 -------------------------------
