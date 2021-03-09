@@ -1,5 +1,13 @@
 # Subsampling Conditional Generative Adversarial Networks From the Conditional Density Ratio Estimation Perspective
 
+This repository provides the source codes for the experiments in our paper on the CIFAR-10 and RC-49 datasets. <br />
+If you use this code, please cite
+```text
+
+TO BE DONE...
+
+```
+
 
 ## Datasets (h5 files)
 
@@ -28,18 +36,3 @@ https://1drv.ms/u/s!Arj2pETbYnWQso1vD_2hHtvbxVOM9w?e=jgK2Se <br />
 
 -------------------------------
 ## Sample Usage
-
-
-
-
-
-
--------------------------------
-## Citations
-
-If you use this code, please cite
-```text
-
-TO BE DONE...
-
-```
