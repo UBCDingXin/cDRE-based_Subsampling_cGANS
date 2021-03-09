@@ -4,6 +4,7 @@
 ## Datasets (h5 files)
 
 ### CIFAR-10 (50000 training samples)
+For BigGAN training: <br />
 
 
 
