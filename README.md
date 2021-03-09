@@ -50,6 +50,8 @@ Run `./CIFAR10/scripts/run_exp3.sh` for Setting 3 (10,000 samples).  <br />
 
 ### RC-49
 #### Pre-trained evaluation models
+We follow
+
 Put the following checkpoints of evaluation models at `./RC-49/output/eval_models`: <br />
 AE: https://1drv.ms/u/s!Arj2pETbYnWQso1ekYRSrUaw_J1sHw?e=jLK1sS  <br />
 Classificaiton ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQso1cSXPWcVcLt7B8Lg?e=BHBj3h  <br />
@@ -58,6 +60,16 @@ Regression ResNet-34: https://1drv.ms/u/s!Arj2pETbYnWQspR-mZWEeGjKpfkfdA?e=JgRdS
 #### CcGAN training and DRE fitting
 
 
+#### Evaluation
+
 
 -------------------------------
 ## Some Results
+
+
+
+
+-------------------------------
+## References
+[1] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “CcGAN: Continuous conditional generative adversarial networks for image generation,” in International Conference on Learning Representations, 2021.
+[2] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “Continuous conditional generative adversarial networks for image generation: Novel losses and label input mechanisms,” arXiv preprint arXiv:2011.07466, 2020. https://github.com/UBCDingXin/improved_CcGAN
