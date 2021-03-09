@@ -8,6 +8,11 @@ TO BE DONE...
 
 ```
 
+<p align="center">
+  <img src="images/workflow_cDRE-F-SP+RS.png">
+  The workflow of cDRE-F-SP+RS.
+</p>
+
 -------------------------------
 
 ## Datasets (h5 files)
