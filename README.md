@@ -83,13 +83,13 @@ Rename the folder containing fake images to `fake_images` and then compress `fak
 
 -------------------------------
 ## Some Results
-### CIFAR-10
+⋅⋅* CIFAR-10
 <p align="center">
   <img src="images/CIFAR10_results.png">
   <img src="images/CIFAR10_10000_line_graphs_fid_vs_class.png">
 </p>
 
-### RC-49
+⋅⋅* RC-49
 <p align="center">
   <img src="images/RC-49_results.png">
   <img src="images/RC49_5_line_graphs_fid_vs_angle.png">
