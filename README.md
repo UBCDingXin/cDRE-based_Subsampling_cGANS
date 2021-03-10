@@ -96,5 +96,5 @@ Rename the folder containing fake images to `fake_images` and then compress `fak
 ## References
 [1] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “CcGAN: Continuous conditional generative adversarial networks for image generation,” in International Conference on Learning Representations, 2021.  <br />
 [2] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “Continuous conditional generative adversarial networks for image generation: Novel losses and label input mechanisms,” arXiv preprint arXiv:2011.07466, 2020. https://github.com/UBCDingXin/improved_CcGAN  <br />
-[3] https://github.com/ajbrock/BigGAN-PyTorch
+[3] https://github.com/ajbrock/BigGAN-PyTorch <br />
 [4] Ding, Xin, Z. Jane Wang, and William J. Welch. "Subsampling generative adversarial networks: Density ratio estimation in feature space with softplus loss." IEEE Transactions on Signal Processing 68 (2020): 1910-1922. https://github.com/UBCDingXin/DDRE_Sampling_GANs
