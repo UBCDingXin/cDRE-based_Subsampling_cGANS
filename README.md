@@ -81,13 +81,18 @@ Run `./RC-49/scripts/run_dump_img_for_niqe_3.sh` for Setting 3 (5 images per ang
 Rename the folder containing fake images to `fake_images` and then compress `fake_images` with a filename `fake_images.zip`. Move `fake_images.zip` to `./RC-49/NIQE/fake_data`. Then, run `./RC-49/NIQE/run_test.sh`. <br />
 
 
-<!-- -------------------------------
+-------------------------------
 ## Some Results
 ### CIFAR-10
+<p align="center">
+  <img src="images/CIFAR10_results.png">
+  <img src="images/CIFAR10_results.png">
+</p>
+
 
 ### RC-49
 
--->
+
 
 
 
