@@ -46,12 +46,14 @@ https://1drv.ms/u/s!Arj2pETbYnWQso1vD_2hHtvbxVOM9w?e=jgK2Se <br />
 ### CIFAR-10
 
 #### Pre-trained evaluation models and BigGAN
-We train an Inception V3 on CIFAR-10 to evaluate the image quality. The checkpoint of the Inception V3 locates at `./CIFAR10/output/eval_models/`. BigGAN's checkpoints for all three settings are also included in this repository.
+We train an Inception V3 on CIFAR-10 to evaluate the image quality. The checkpoint of the Inception V3 locates at `./CIFAR10/output/eval_models/`. The training codes for BigGAN mainly based on [3] locate at `./CIFAR10/BigGAN_50K`, `./CIFAR10/BigGAN_50K`, and `./CIFAR10/BigGAN_50K`. BigGAN's checkpoints for all three settings are already included in this repository.
 
 #### Fitting the DRE models
 Run `./CIFAR10/scripts/run_exp1.sh` for Setting 1 (50,000 samples).  <br />
 Run `./CIFAR10/scripts/run_exp2.sh` for Setting 2 (20,000 samples).  <br />
 Run `./CIFAR10/scripts/run_exp3.sh` for Setting 3 (10,000 samples).  <br />
+
+The implementation of DRE-F-SP+RS is mainly based on [4].
 
 ### RC-49
 #### Pre-trained evaluation models
@@ -94,4 +96,5 @@ Rename the folder containing fake images to `fake_images` and then compress `fak
 ## References
 [1] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “CcGAN: Continuous conditional generative adversarial networks for image generation,” in International Conference on Learning Representations, 2021.  <br />
 [2] X. Ding, Y. Wang, Z. Xu, W. J. Welch, and Z. J. Wang, “Continuous conditional generative adversarial networks for image generation: Novel losses and label input mechanisms,” arXiv preprint arXiv:2011.07466, 2020. https://github.com/UBCDingXin/improved_CcGAN  <br />
-<!-- [3] Ding, Xin, Z. Jane Wang, and William J. Welch. "Subsampling generative adversarial networks: Density ratio estimation in feature space with softplus loss." IEEE Transactions on Signal Processing 68 (2020): 1910-1922. -->
+[3] https://github.com/ajbrock/BigGAN-PyTorch
+[4] Ding, Xin, Z. Jane Wang, and William J. Welch. "Subsampling generative adversarial networks: Density ratio estimation in feature space with softplus loss." IEEE Transactions on Signal Processing 68 (2020): 1910-1922. https://github.com/UBCDingXin/DDRE_Sampling_GANs
