@@ -9,8 +9,8 @@ TO BE DONE...
 ```
 
 <p align="center">
-  <img src="images/workflow_cDRE-F-SP+RS.png">
-  The workflow of cDRE-F-SP+RS.
+  <img src="images/workflow_cDRE-F-cSP+RS.png">
+  The workflow of cDRE-F-cSP+RS.
 </p>
 
 -------------------------------
