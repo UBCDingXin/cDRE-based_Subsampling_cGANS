@@ -1,4 +1,4 @@
-# Efficient Conditional Subsampling for Generating High-Quality Images from Conditional Generative Adversarial Networks
+# Efficient Subsampling for Generating High-Quality Images from Conditional Generative Adversarial Networks
 
 This repository provides the source codes for the experiments in our paper on the CIFAR-10 and RC-49 datasets. <br />
 If you use this code, please cite
