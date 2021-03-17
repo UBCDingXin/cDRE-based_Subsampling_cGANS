@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT_PATH="/home/xin/OneDrive/Working_directory/Subsample_cGANs_via_cDRE/CIFAR10/BigGAN"
+ROOT_PATH="./CIFAR10/BigGAN"
 
 
 EPOCHS=2000
