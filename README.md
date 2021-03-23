@@ -4,7 +4,14 @@ This repository provides the source codes for the experiments in our paper on th
 If you use this code, please cite
 ```text
 
-TO BE DONE...
+@misc{ding2021efficient,
+      title={Efficient Subsampling for Generating High-Quality Images from Conditional Generative Adversarial Networks}, 
+      author={Xin Ding and Yongwei Wang and Z. Jane Wang and William J. Welch},
+      year={2021},
+      eprint={2103.11166},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 ```
 
